@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Consumo de API de Películas</title>
+        <link rel="stylesheet" href="./public/css/bootstrap.min.css" />
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <header class="bg-dark text-white py-4 mb-4">
+            <div class="container">
+                <h1 class="mb-0">Movie Database Alternative API</h1>
+                <p class="mb-0">Tarea de Desarrollo Web</p>
+            </div>
+        </header>
+        <main class="container mb-5">
+            <form id="search-form" class="row g-3 mb-4 justify-content-center">
+                <div class="col-12 col-md-8 col-lg-6">
+                    <input
+                        type="text"
+                        id="search-input"
+                        class="form-control"
+                        placeholder="Buscar película..."
+                        required />
+                </div>
+                <div class="col-auto">
+                    <button type="submit" class="btn btn-primary">Buscar</button>
+                </div>
+            </form>
+            <div id="movies-row" class="row g-4">
+                <!-- Las tarjetas de películas van aquí -->
+            </div>
+        </main>
+        <footer>Byron Daniel Rodríguez Mazariegos &mdash; 01 de Agosto de 2025</footer>
+        <script src="./public/js/bootstrap.bundle.min.js"></script>
+        <script src="script.js"></script>
+    </body>
+</html>
